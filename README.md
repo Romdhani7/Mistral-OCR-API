@@ -75,9 +75,13 @@ url = "http://localhost:8000/batch"
 files = [('files', open(f'receipt_{i}.jpg', 'rb')) for i in range(5)]
 response = requests.post(url, files=files, headers={"Authorization": "Bearer YOUR_TOKEN"})
 
+🎬 Demo Video
+[![Demo Video](demo.gif)
+
+
+
 
 👤 Author
 Romdhani Amina
 
-🎬 Demo Video
-[![Demo Video](demo.gif)
+
