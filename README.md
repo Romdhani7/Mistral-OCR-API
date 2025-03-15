@@ -61,22 +61,23 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 python scripts/download_models.py
 
-🚦 API Usage
+###🚦 API Usage
+
 🔹 Single File Processing
 
 curl -X POST "http://localhost:8000/ocr" \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -F "file=@receipt.jpg"
+  
 🔹 Batch Processing
 
 import requests
-
 url = "http://localhost:8000/batch"
 files = [('files', open(f'receipt_{i}.jpg', 'rb')) for i in range(5)]
 response = requests.post(url, files=files, headers={"Authorization": "Bearer YOUR_TOKEN"})
 
 🎬 Demo Video
-[![Demo Video](demo.gif)
+[![Demo Video](demo2.gif)
 
 
 
