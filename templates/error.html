@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Error Occurred</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --error: #e74c3c;
+      --primary: #2c3e50;
+      --light: #f8f9fa;
+      --dark: #212529;
+    }
+    body {
+      background: var(--light);
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 500px;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .error-icon {
+      font-size: 3rem;
+      color: var(--error);
+      margin-bottom: 1rem;
+    }
+    h1 {
+      margin: 0;
+      color: var(--primary);
+      font-size: 2rem;
+    }
+    .error-message {
+      margin: 1.5rem 0;
+      padding: 1rem;
+      background: #fee;
+      border: 1px solid var(--error);
+      color: var(--dark);
+      border-radius: 6px;
+    }
+    .back-btn a {
+      text-decoration: none;
+      background: var(--error);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+    .back-btn a:hover {
+      background: #c0392b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="error-icon">⚠️</div>
+    <h1>Processing Error</h1>
+    <div class="error-message">
+      {{ error_message }}
+    </div>
+    <div class="back-btn">
+      <a href="/">Try Again</a>
+    </div>
+  </div>
+</body>
+</html>
