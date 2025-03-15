@@ -10,7 +10,12 @@ Traditional OCR methods, such as **Tesseract**, relied on rule-based algorithms 
 Mistral OCR is an advanced OCR system that enhances traditional text extraction methods with **language understanding**. It combines:  
 - **Deep Learning OCR**: Extracts text from images with high precision.  
 - **Large Language Models (LLMs)**: Understands and structures extracted text for better usability.  
-- **Automated Data Validation**: Ensures extracted data follows a meaningful structure.  
+- **Automated Data Validation**: Ensures extracted data follows a meaningful structure.
+ 
+![Mistral OCR Image](https://i.gzn.jp/img/2025/03/07/mistral-ocr/02.png)
+
+Optical Character Recognition (OCR) is a technology that extracts text from images, scanned documents, and printed or handwritten text. Modern OCR solutions go beyond simple character recognition by integrating **machine learning (ML) and natural language processing (NLP)** to improve accuracy and context understanding.
+
 
 ---
 
