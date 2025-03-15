@@ -1,5 +1,11 @@
 # 🧾 Optical Character Recognition (OCR) & Mistral OCR
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Mistral_OCR](https://img.shields.io/badge/Mistral_OCR-FF6F00?logo=micropython&logoColor=white)
+
 ## 📖 Introduction to OCR  
 Optical Character Recognition (OCR) is a technology that extracts text from images, scanned documents, and printed or handwritten text. Modern OCR solutions go beyond simple character recognition by integrating **machine learning (ML) and natural language processing (NLP)** to improve accuracy and context understanding.
 
