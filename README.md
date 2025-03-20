@@ -83,7 +83,7 @@ files = [('files', open(f'receipt_{i}.jpg', 'rb')) for i in range(5)]
 response = requests.post(url, files=files, headers={"Authorization": "Bearer YOUR_TOKEN"})
 
 🎬 Demo Video
-[![Demo Video](demo2.gif)
+![Demo Video](demo2.gif)
 
 
 
